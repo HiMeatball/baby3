@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>北鼻不哭！</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- 字體 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Noto+Sans+TC:wght@100..900&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Concert One", sans-serif}
+.w3-bar,h1,button {font-family: "Zen Maru Gothic", sans-serif}
+h5,p {font-family: "Noto Sans TC", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+.custom-navbar {
+  background-color: #faedcd; /* Custom background color */
+  color: #432818; /* Custom font color */}
+.custom-navbar a {
+  color: #432818; /* Custom font color for links */}
+.custom-navbar a.w3-hover-white:hover {
+  color: #432818; /* Custom font color on hover */
+  background-color: #f1f1f1; /* Light background color on hover */}
+
+.custom-header {
+  background-image: url('baby.jpg'); /* Your image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 128px 16px;
+  color: white;}
+.custom-header h1, .custom-header p {
+  color: #432818; /* Custom font color */}
+
+  .w3-custom-background {
+  background-color: #f5ebe0;}
+  .w3-background2 {
+  background-color: #d6ccc2;}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
+    <a href="sleep.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">睡眠需求</a>
+    <a href="car.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">安全座椅</a>
+    <a href="takecare.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">疫苗接種</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="sleep.html" class="w3-bar-item w3-button w3-padding-large">睡眠需求</a>
+    <a href="car.html" class="w3-bar-item w3-button w3-padding-large">安全座椅</a>
+    <a href="takecare.html" class="w3-bar-item w3-button w3-padding-large">疫苗接種</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+</div>
+
+<!-- Header -->
+  <header class="w3-container w3-center custom-header">
+  <h1 class="w3-margin w3-jumbo">北鼻不哭</h1>
+  <p class="w3-xlarge">北鼻知識大挑戰</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="location.href='https://himeatball.github.io/baby-cry/'">Start Game</button>
+</header>
+
+<!-- Video Section -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-center">
+      <video width="80%" controls>
+        <source src="home_page.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>北鼻不哭！</h1>
+      <h5 class="w3-padding-32">小小的生命即將到來，為將要新手爸媽的您，提供全方位的育兒支持。</h5>
+      <p class="w3-text-grey">我們的課程主要透過Line官方帳號互動學習，在這個網站也提供北鼻睡眠需求、安全座椅選擇以及疫苗接種時程的各項知識。最後有知識大挑戰小遊戲，讓您可以複習所學的內容，有趣又不被空間、時間限制的育兒課程。</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="baby2.jpg" alt="baby" style="width:100%;max-width:400px;padding:64px;">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-custom-background w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="babyqrcode.png" alt="Lineqrcode" style="width:100%;max-width:400px;padding:64px;">
+    </div>
+    <div class="w3-twothird">
+      <h1>加入北鼻不哭，給寶寶一個完美的開始！</h1>
+      <h5 class="w3-padding-32">透過聊天互動的方式，給您全新的學習體驗！</h5>
+
+      <p class="w3-text-grey">在Line聊天室裡，有課程動畫及課後小遊戲，馬上檢驗自己有沒有正確吸收北鼻知識，隨時可以在聊天室裡發問，我們會不定期回應呦～</p>
+      <a href="https://lin.ee/tf5dMx4"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
+
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-background2 w3-center w3-opacity w3-padding-64">
+    <h6 class="w3-margin w3-xlarge white-text concert-one-font">Baby don't cry!</h6>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

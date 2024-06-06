@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>關於北鼻Team</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- 字體 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Noto+Sans+TC:wght@100..900&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Concert One", sans-serif}
+.w3-bar,h1,button {font-family: "Zen Maru Gothic", sans-serif}
+h5,p {font-family: "Noto Sans TC", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+.custom-navbar {
+  background-color: #faedcd; /* Custom background color */
+  color: #432818; /* Custom font color */}
+.custom-navbar a {
+  color: #432818; /* Custom font color for links */}
+.custom-navbar a.w3-hover-white:hover {
+  color: #432818; /* Custom font color on hover */
+  background-color: #f1f1f1; /* Light background color on hover */}
+
+.custom-header {
+  background-image: url('baby.jpg'); /* Your image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 128px 16px;
+  color: white;}
+.custom-header h1, .custom-header p {
+  color: #432818; /* Custom font color */}
+
+  .w3-custom-background {
+  background-color: #f5ebe0;}
+  .w3-background2 {
+  background-color: #d6ccc2;}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
+    <a href="sleep.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">睡眠需求</a>
+    <a href="car.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">安全座椅</a>
+    <a href="takecare.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">疫苗接種</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="sleep.html" class="w3-bar-item w3-button w3-padding-large">睡眠需求</a>
+    <a href="car.html" class="w3-bar-item w3-button w3-padding-large">安全座椅</a>
+    <a href="takecare.html" class="w3-bar-item w3-button w3-padding-large">疫苗接種</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h1>&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+  <h3><span class="w3-tag w3-wide">北鼻Team</span></h3>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+
+    <img src="Usagi.webp" alt="leader" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Meatball</h3>
+    <p>喜歡長髮男</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="hon.webp" alt="good" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Ruby</h3>
+    <p>喜歡白色、旅遊、拍照</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Chiikawa.webp" alt="bad" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Nina</h3>
+    <p>喜歡南柱赫</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Hachi.webp" alt="Bossbadddd" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Yu</h3>
+    <p>喜歡甜食、壽司</p>
+  </div>
+  
+  </div>
+  </div>
+<div class="w3-container w3-background2 w3-center w3-opacity w3-padding-64">
+    <h6 class="w3-margin w3-xlarge white-text concert-one-font">Baby don't cry!</h6>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<a href="https://lin.ee/tf5dMx4"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

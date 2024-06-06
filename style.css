@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  .white-text {
+    color: #ffffff; /* 设置文字颜色为白色 */}
+  .concert-one-font {
+      font-family: "Concert One", sans-serif; /* 设置字体为 "Concert One" */}
+  
+}
+
+canvas {
+  display: block;
+}
